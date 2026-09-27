@@ -26,6 +26,7 @@ export interface HotelConfig {
     };
     openingHours: {
       frontDesk: string;
+      concierge: string;
       checkIn: string;
       checkOut: string;
     };
@@ -83,6 +84,7 @@ export const hotelConfig: HotelConfig = {
     },
     openingHours: {
       frontDesk: "24 Hours / 7 Days",
+      concierge: "06:00 AM – 11:30 PM",
       checkIn: "12:00 PM (Noon)",
       checkOut: "11:00 AM",
     },
