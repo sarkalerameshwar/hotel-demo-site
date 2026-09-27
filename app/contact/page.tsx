@@ -176,8 +176,7 @@ export default function ContactPage() {
             </h4>
             <div className="space-y-1 text-xs text-charcoal-200">
               <p>Front Desk: <strong>{hotelConfig.contact.openingHours.frontDesk}</strong></p>
-              <p>Concierge: {hotelConfig.contact.openingHours.concierge}</p>
-              <p>Check-in: {hotelConfig.contact.openingHours.checkIn} | Check-out: {hotelConfig.contact.openingHours.checkOut}</p>
+              <p>Check-in: <strong>{hotelConfig.contact.openingHours.checkIn}</strong> | Check-out: <strong>{hotelConfig.contact.openingHours.checkOut}</strong></p>
             </div>
           </div>
         </div>

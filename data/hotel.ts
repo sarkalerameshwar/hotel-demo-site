@@ -33,6 +33,8 @@ export interface HotelConfig {
     socials: {
       instagram: string;
       facebook: string;
+      linkedin: string;
+      twitter: string;
       google: string;
     };
   };
@@ -91,6 +93,8 @@ export const hotelConfig: HotelConfig = {
     socials: {
       instagram: "https://instagram.com",
       facebook: "https://facebook.com",
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com",
       google: "https://google.com/maps",
     },
   },
